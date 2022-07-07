@@ -408,4 +408,18 @@ input[type=submit]:hover {
  }
 }
 
+ @media (min-width: 950px) and (max-width: 1389px){
+  body .container .card {
+    position: relative;
+    min-width: 160px !important;
+    height: 370px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+      inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+      5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+    transition: 0.5s;
+  }
+ }
+
  
